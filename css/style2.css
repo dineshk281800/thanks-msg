@@ -28,7 +28,7 @@ a {
   text-decoration: none;
 }
 
-.container-1 {
+.container--1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +37,7 @@ a {
   height: 100vh;
 }
 
-.card-1 {
+.card--1 {
   background-color: var(--White);
   width: 25%;
   height: 45%;
@@ -46,7 +46,7 @@ a {
   color: var(--Dark-Slate-Grey);
 }
 
-.success-icon {
+.success--icon {
   width: 4rem;
   height: 4rem;
   margin-bottom: 1rem;
@@ -63,7 +63,7 @@ a {
   margin-bottom: 2.5rem;
 }
 
-.btn-msg {
+.btn--msg {
   width: 28rem;
   height: 3rem;
   background-color: var(--Dark-Slate-Grey);
@@ -72,10 +72,10 @@ a {
   border: none;
 }
 
-.btn-msg:hover {
+.btn--msg:hover {
   background: linear-gradient(to bottom right, #ff576c, #ff644c);
 }
 
-.dismiss-msg {
+.dismiss--msg {
   color: var(--White);
 }
